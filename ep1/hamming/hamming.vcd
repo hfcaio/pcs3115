@@ -1,0 +1,52 @@
+$date
+  Sun May 28 16:46:34 2023
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module hamming_tb $end
+$var reg 13 ! entrada[13:1] $end
+$var reg 9 " dados[8:0] $end
+$scope module test $end
+$var reg 13 # entrada[13:1] $end
+$var reg 9 $ dados[8:0] $end
+$var reg 4 % aux[4:1] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+b1000100111100 !
+b100010111 "
+b1000100111100 #
+b100010111 $
+b0000 %
+#1000000
+b1000100111000 !
+b100010111 "
+b1000100111000 #
+b100010111 $
+b0011 %
+#2000000
+b1001001110011 !
+b100101110 "
+b1001001110011 #
+b100101110 $
+b0000 %
+#3000000
+b1101001110011 !
+b100101110 "
+b1101001110011 #
+b100101110 $
+b1100 %
+#4000000
+b0000000000000 !
+b000000000 "
+b0000000000000 #
+b000000000 $
+b0000 %
+#5000000

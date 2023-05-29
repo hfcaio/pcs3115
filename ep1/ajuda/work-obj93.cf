@@ -1,0 +1,9 @@
+v 4
+file . "ajuda_tb.vhd" "82cb24d562d54667d0f2d9255b177b921cb4d4c4" "20230511220606.383":
+  entity ajuda_tb at 1( 0) + 0 on 49;
+  architecture behave of ajuda_tb at 4( 35) + 0 on 50;
+file . "ajuda.vhd" "6338941bee775bd8e6c821aeaee968406859ad9f" "20230511220602.956":
+  entity jogodavelha at 1( 0) + 0 on 45;
+  architecture behave of jogodavelha at 10( 234) + 0 on 46;
+  entity ajuda at 30( 832) + 0 on 47;
+  architecture behave of ajuda at 43( 1133) + 0 on 48;

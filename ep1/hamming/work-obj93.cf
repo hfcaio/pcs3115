@@ -1,0 +1,7 @@
+v 4
+file . "hamming_tb.vhd" "991c713c07c45631174313caed73884262c0a1f0" "20230523191450.708":
+  entity hamming_tb at 1( 0) + 0 on 47;
+  architecture behave of hamming_tb at 4( 38) + 0 on 48;
+file . "hamming.vhd" "b4f9e5208ef8bac5afdb0123cb3630954e3e7b4a" "20230523191445.083":
+  entity hamming at 1( 0) + 0 on 45;
+  architecture behave of hamming at 8( 137) + 0 on 46;
